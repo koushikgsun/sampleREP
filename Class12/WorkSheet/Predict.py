@@ -1,0 +1,5 @@
+file = open("para.txt', 'r')
+a = file.read()
+b = a.count('life’)
+print(b)
+file.close()
